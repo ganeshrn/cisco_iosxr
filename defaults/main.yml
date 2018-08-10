@@ -3,3 +3,7 @@
 #
 iosxr_get_facts_command_map: "{{ role_path }}/vars/get_facts_command_map.yaml"
 iosxr_get_facts_subset: "{{ subset | default(['default']) }}"
+
+
+netconf_port: 830
+netconf_vrf: "default"
